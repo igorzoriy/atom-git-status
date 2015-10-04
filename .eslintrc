@@ -1,0 +1,24 @@
+{
+  "rules": {
+    "array-bracket-spacing": [2, "always"],
+    "block-spacing": [2, "always"],
+    "camelcase": [2, {"properties": "always"}],
+    "comma-spacing": [2, {"before": false, "after": true}],
+    "indent": [2, 2],
+    "linebreak-style": [2,"unix"],
+    "quotes": [2, "double"],
+    "semi": [2, "always"],
+    "space-after-keywords": [2, "always"],
+    "space-before-keywords": [2, "always"],
+    "space-before-blocks": [2, "always"],
+    "arrow-parens": [2, "always"],
+    "arrow-spacing": [2],
+    "no-multiple-empty-lines": [2, {"max": 2}]
+  },
+  "ecmaFeatures": {
+    "arrowFunctions": true,
+    "classes": true,
+    "modules": true,
+    "objectLiteralShorthandMethods": true
+  }
+}

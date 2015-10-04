@@ -1,0 +1,18 @@
+{
+  "name": "git-status",
+  "main": "./lib/AtomGitStatus",
+  "version": "0.0.1",
+  "description": "Adds git-status panel to atom editor.",
+  "keywords": [],
+  "repository": "https://github.com/igorzoriy/atom-git-status",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "activationCommands": {
+    "atom-workspace": "atom-git-status:toggle"
+  },
+  "devDependencies": {
+    "eslint": "^1.6.0"
+  }
+}
