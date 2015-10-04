@@ -13,10 +13,12 @@
     "space-before-blocks": [2, "always"],
     "arrow-parens": [2, "always"],
     "arrow-spacing": [2],
-    "no-multiple-empty-lines": [2, {"max": 2}]
+    "no-multiple-empty-lines": [2, {"max": 2}],
+    "no-var": [2]
   },
   "ecmaFeatures": {
     "arrowFunctions": true,
+    "blockBindings": true,
     "classes": true,
     "modules": true,
     "objectLiteralShorthandMethods": true

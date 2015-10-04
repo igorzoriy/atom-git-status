@@ -6,6 +6,11 @@
   "keywords": [],
   "repository": "https://github.com/igorzoriy/atom-git-status",
   "license": "MIT",
+  "author": {
+    "name": "Igor Zoriy",
+    "email": "common@igorzoriy.com",
+    "url": "igorzoriy.com"
+  },
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
