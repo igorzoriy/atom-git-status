@@ -1,7 +1,7 @@
 {
   "name": "git-status",
   "main": "./lib/AtomGitStatus",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Adds git-status panel to atom editor.",
   "keywords": [],
   "repository": "https://github.com/igorzoriy/atom-git-status",
