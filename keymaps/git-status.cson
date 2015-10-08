@@ -1,0 +1,2 @@
+'atom-workspace':
+  'ctrl-s': 'git-status:toggle'
