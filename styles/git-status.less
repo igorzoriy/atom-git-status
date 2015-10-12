@@ -4,7 +4,6 @@
 
 .git-status-item {
   margin: 0.35em 0;
-  cursor: pointer;
 }
 
 .git-status-item:first-child {
@@ -15,6 +14,19 @@
   margin-bottom: 0;
 }
 
-.git-status-item:hover {
+.git-status-item:hover:not(.deleted) {
   text-decoration: underline;
+  cursor: pointer;
+}
+
+.git-status-item.added {
+  color: @text-color-success;
+}
+
+.git-status-item.modified {
+  color: @text-color-warning;
+}
+
+.git-status-item.deleted {
+  color: @text-color-error;
 }

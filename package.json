@@ -3,7 +3,10 @@
   "main": "./lib/GitStatus",
   "version": "0.1.0",
   "description": "Adds git-status panel to atom editor.",
-  "keywords": [],
+  "keywords": [
+      "git",
+      "vcs"
+  ],
   "repository": "https://github.com/igorzoriy/atom-git-status",
   "license": "MIT",
   "author": {
