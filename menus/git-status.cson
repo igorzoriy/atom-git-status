@@ -6,7 +6,7 @@
       'submenu': [
         {
           'label': 'Toggle'
-          'command': 'atom-git-status:toggle'
+          'command': 'git-status:toggle'
         }
       ]
     ]
