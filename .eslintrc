@@ -11,6 +11,7 @@
     "space-after-keywords": [2, "always"],
     "space-before-keywords": [2, "always"],
     "space-before-blocks": [2, "always"],
+    "key-spacing": [2],
     "arrow-parens": [2, "always"],
     "arrow-spacing": [2],
     "no-multiple-empty-lines": [2, {"max": 2}],
