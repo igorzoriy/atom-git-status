@@ -4,7 +4,7 @@
     "block-spacing": [2, "always"],
     "camelcase": [2, {"properties": "always"}],
     "comma-spacing": [2, {"before": false, "after": true}],
-    "indent": [2, 2],
+    "indent": [2, 2, {"SwitchCase": 1}],
     "linebreak-style": [2,"unix"],
     "quotes": [2, "double"],
     "semi": [2, "always"],
@@ -24,6 +24,7 @@
     "destructuring": true,
     "forOf": true,
     "modules": true,
-    "objectLiteralShorthandMethods": true
+    "objectLiteralShorthandMethods": true,
+    "templateStrings": true
   }
 }

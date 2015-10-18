@@ -1,3 +1,5 @@
+@import "ui-variables";
+
 .git-status {
   padding: 0.5em 1em;
   max-height: 12.5em;
@@ -23,6 +25,10 @@
 .git-status-item:hover:not(.deleted) {
   text-decoration: underline;
   cursor: pointer;
+}
+
+.git-status-item.untracked {
+  color: @text-color-subtle;
 }
 
 .git-status-item.added {
